@@ -21,6 +21,3 @@ shinyServer(function(input, output) {
       geom_path()
   })
 })
-
-
-rsconnect::setAccountInfo(name='strong', token='B9F156672007D86B2EA8873DEB357554', secret='j5ncBMNAqg3ooYjx+7IoUm5N0JeA2wfNvdbeRwtc')
