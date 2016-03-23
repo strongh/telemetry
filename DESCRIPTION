@@ -1,9 +1,9 @@
 Package: telemetry
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Shiny Inputs for Geolocation and Sensor Data
 Version: 0.1.0
 Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
-Imports: htmlwidgets
+Description:
+License: Shiny Inputs for Geolocation and Sensor Data
+Imports: shiny, htmltools
 LazyData: TRUE
