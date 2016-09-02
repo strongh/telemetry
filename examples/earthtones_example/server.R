@@ -1,6 +1,7 @@
 library(shiny)
 library(maptools)
 library(ggplot2)
+library(cluster) # earthtones needs this to be installed?
 library(earthtones)
 
 shinyServer(function(input, output) {
