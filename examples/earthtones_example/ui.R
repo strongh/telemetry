@@ -14,7 +14,8 @@ shinyUI(fluidPage(
       " which then determines a color palette from the satellite imagery at
       the user's location. It usually takes a few seconds for the imagery to appear.",
       selectInput("zoom", "Zoom level (lower zoom -> larger area)", 2:20, selected=12),
-      selectInput("colors", "Number of colors in palette", 2:20, selected=8)
+      selectInput("colors", "Number of colors in palette", 2:20, selected=8),
+      textInput("address", "Address")
     ),
 
     # Show a plot of the generated distribution
